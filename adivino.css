@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2? family= Montserrat:wght@100 & display=swap');
+
+html 
+ {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://cdn.pixabay.com/photo/2023/04/09/19/55/sorceress-7912134_1280.jpg");
+    background-size: cover; 
+    min-height: fit-content;
+  }
+  
+  h1 
+  {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 70px;
+    padding: 10px;
+    color: #8ecae2;
+    text-shadow: 3px 3px 1px black;
+  }
+   h2 
+  {
+    font-size: 1.4rem;;
+    text-align: center;
+    margin: 0;
+    padding: 0x;
+    color: #8be2db;
+    
+  }
+  .ajuste
+  {
+    width: 500px;
+    height: 600px;
+    overflow: hidden;
+    background: url("https://cdn.pixabay.com/photo/2021/01/03/00/02/woman-5883291_1280.jpg") no-repeat center/cover;
+    border-radius: 50px;
+    box-shadow: 5px 10px 5px #000000;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 150px;
+  }
